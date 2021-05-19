@@ -1,0 +1,126 @@
+header {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  .menu-toggle {
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    padding: 0 $container-padding;
+    z-index: 99;
+    @include md {
+      padding-right: $container-padding-md;
+    }
+    @include lg {
+      display: none;
+    }
+    .btn {
+      padding: 1rem 1.3rem;
+    }
+  }
+  .slideshow {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    animation: zoomin 14s ease-in-out infinite alternate;
+    &__nav {
+      position: absolute;
+
+      bottom: 3rem;
+      right: 0;
+      z-index: 99;
+
+      padding-right: 5rem;
+
+      .btn {
+        padding: 1.5rem 2rem;
+        &:hover {
+          background-color: #fff;
+          color: $primary-color-red;
+        }
+      }
+    }
+    &__info {
+      position: absolute;
+
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 60rem;
+
+      padding-right: 5rem;
+      color: #fff;
+
+      text-align: right;
+      font-size: 2.8rem;
+      z-index: 3;
+      p {
+        font-size: 1.8rem;
+        margin: 2rem 0;
+      }
+    }
+    .slides {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-filter: opacity(0.7);
+      filter: opacity(0.7);
+      transition: all 2.1s ease-in-out;
+      &--active {
+        position: relative;
+        visibility: visible;
+        filter: opacity(1);
+      }
+      &__slide-1 {
+        background-image: url("/dist/img/s2.jpg");
+        filter: brightness(0.5);
+      }
+      &__slide-2 {
+        background-image: url("/dist/img/slide.jpg");
+        filter: brightness(0.5);
+      }
+      &__slide-3 {
+        background-image: url("/dist/img/slide3.jpg");
+        filter: brightness(0.5);
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  header .menu-toggle {
+    padding-right: 50px;
+  }
+}
+@media (min-width: 992px) {
+  header .menu-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  header .slideshow-nav {
+    padding-right: 50px;
+  }
+}
+@media (min-width: 992px) {
+  header .slideshow-nav {
+    top: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .slideshow-info {
+    padding-right: 50px;
+  }
+}
+@media (min-width: 992px) {
+  header .slideshow-info {
+    padding-right: 100px;
+  }
+}

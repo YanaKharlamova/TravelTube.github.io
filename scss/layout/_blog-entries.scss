@@ -1,0 +1,80 @@
+.blog-entries {
+  margin: 3rem 0;
+
+  &__box {
+    background-color: #eee;
+    font-size: 1.6rem;
+    &-tabs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+
+      border-bottom: 7px solid $primary-color-red;
+    }
+    &-tab {
+      padding: 3rem;
+      text-align: center;
+      &:hover {
+        color: $primary-color;
+        cursor: pointer;
+      }
+      &.active {
+        background-color: $primary-color-red;
+        color: #eee;
+      }
+    }
+  }
+
+  &__items {
+    padding: 1rem 1.5rem;
+    .tabcontent {
+      display: none;
+
+      &:first-child {
+        display: block;
+      }
+    }
+    &-item {
+      @include flex(flex-start, center);
+      margin: 2rem;
+      animation: fade-in 1s;
+      margin-bottom: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #ccc;
+
+      img {
+        flex: 3;
+        margin-right: 2rem;
+        width: 40%;
+        height: 15rem;
+        object-fit: cover;
+        @include md {
+          flex: 1;
+        }
+        @include lg {
+          flex: 3;
+
+          margin-right: 2rem;
+          width: 20rem;
+
+          height: 35rem;
+          object-fit: cover;
+        }
+      }
+      &-info {
+        font-size: 1.4rem;
+        flex: 2;
+        h3,
+        h4 {
+          margin: 5px 0;
+        }
+        h4 {
+          color: #666;
+        }
+        p {
+          margin: 1rem 0;
+          color: #aaa;
+        }
+      }
+    }
+  }
+}

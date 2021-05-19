@@ -1,0 +1,86 @@
+@media (min-width: 992px) {
+  main {
+    margin-left: 300px;
+    padding-top: 100px;
+  }
+}
+
+main section {
+  padding: 1rem;
+}
+@media (min-width: 768px) {
+  main section {
+    padding: 30px 50px;
+  }
+}
+@media (min-width: 992px) {
+  main section {
+    padding: 30px 100px;
+  }
+}
+
+main .section-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+}
+main .section-title h1 {
+  margin-right: 10rem;
+  font-size: 3rem;
+}
+main .section-title h1 span {
+  display: block;
+
+  color: $primary-color-red;
+}
+main .section-title p {
+  width: 30rem;
+  font-size: 1.5rem;
+}
+
+main .recent-projects {
+  margin: 3rem 0;
+}
+
+@media (min-width: 768px) {
+  main .recent-projects .grid-gallery {
+    grid-gap: 20px;
+  }
+}
+
+main .google-maps {
+  width: 100%;
+  height: 40rem;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  main .contact-sentra .contact-form {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+main .contact-sentra .contact-form input,
+main .contact-sentra .contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  background: #eeeeee;
+  font-size: 2rem;
+}
+@media (min-width: 768px) {
+  main .contact-sentra .contact-form textarea {
+    grid-area: 2 / 1 / 5 / 3;
+  }
+}
+@media (min-width: 768px) {
+  main .contact-sentra .contact-form .btn {
+    grid-column: 1 / 3;
+  }
+}

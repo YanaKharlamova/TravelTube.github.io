@@ -1,0 +1,52 @@
+.activities {
+  &__items {
+    margin: 3rem 0;
+    @include md {
+      @include grid(3, 4rem);
+    }
+    @include xl {
+      @include grid(3, 4rem);
+    }
+    &-item {
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+    &-image {
+      position: relative;
+      overflow: hidden;
+      //
+      width: 100%;
+      height: 45%;
+      object-fit: cover;
+      //
+      .btn {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        margin-bottom: -3.5rem;
+        transition: margin 0.4s ease;
+      }
+      &:hover .btn {
+        margin: -2px 0;
+      }
+    }
+    h4 {
+      margin: 2rem 0 1rem;
+      font-size: 1.4rem;
+    }
+
+    span {
+      font-size: 1.4rem;
+      display: block;
+      margin: 1rem 0;
+      color: #666666;
+    }
+
+    p {
+      color: #777777;
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
+  }
+}

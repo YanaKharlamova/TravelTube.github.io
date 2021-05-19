@@ -1,0 +1,17 @@
+{
+  "name": "traveltube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/main.scss dist/css/main.css --recursive"
+  },
+  "author": "Yana Kharlamova",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "lightbox2": "^2.11.3"
+  }
+}

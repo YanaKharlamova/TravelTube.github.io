@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <!-- roboto font -->  
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>TravelTube</title>
+</head>
+
+<body>
+   <header id="home">
+    <div class="slideshow__nav"> 
+        <div class="btn btn--secondary btn-prev"><i class="fas fa-chevron-left"></i></div><!-- "btn btn--secondary-prev " -->
+        <div class="btn btn--secondary btn-next"><i class="fas fa-chevron-right"></i></div><!-- "btn btn--secondary-next" -->
+    </div>
+    <div class="menu-toggle">  
+        <div class="btn btn--primary"><i class="fas fa-bars"></i></div>
+    </div>
+    <div class="slideshow__info">
+        <h1>Beautiful TravelTube Template </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, impedit voluptatem id dolores quasi neque sit ducimus explicabo facilis laboriosam!</p>
+        <div class="btn btn--primary">More</div>
+    </div>
+    <div class="slideshow">
+        <div class="slides  slides__slide-1 slides--active"></div>
+        <div class="slides slides__slide-2"></div>
+        <div class="slides slides__slide-3"></div>
+    </div>
+   </header>
+
+   <aside class="sidebar open">
+       <div class="sidebar__logo">
+           <h1><span>Travel</span>Tube</h1>
+       </div>
+       <ul class="sidebar__menu">
+           <li class="active">
+            <span class="dot"></span><a href="#home">Home</a>
+           </li>
+
+           <li >
+            <span class="dot"></span><a href="#activities">Activities</a>
+           </li>
+           <li>
+            <span class="dot"></span><a href="#recent-projects">Recent Work</a>
+          </li>
+
+           <li >
+            <span class="dot"></span><a href="#company-presentation">Presentation</a>
+           </li>
+           
+           <li >
+            <span class="dot"></span><a href="#blog-entries">Blog Entries</a>
+           </li>
+
+           <li >
+            <span class="dot"></span><a href="#contact">Contact Us</a>
+           </li>
+       </ul>
+
+       <div class="sidebar__social-links">
+           <i class="fab fa-facebook"></i>
+           <i class="fab fa-instagram"></i>
+           <i class="fab fa-linkedin-in"></i>
+           <i class="fab fa-twitter"></i>           
+       </div>
+   </aside>
+
+   <main>
+       <section id="activities" class="activities">
+           <div class="section-title">
+               <h1>Best <span>Tourist Activities</span></h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum. </p>
+            </div>
+
+           <div class="activities__items">
+            <div class="activities__items-item">
+                   <div class="activities__items-image">
+                       <img src="/dist/img/featured-1.jpg" alt="item1">
+                       <div class=" btn btn--primary">Read</div>
+                   </div>
+                   <h4>Lorem, ipsum dolor.</h4>
+                   <span>Lorem ipsum dolor sit.</span>
+                   <p>#1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aperiam accusantium odio culpa dolore neque corrupti sunt maxime ab nostrum. Quisquam, dolorum facilis ea quidem hic veritatis aliquam repellendus fuga ducimus officia, consectetur ut alias.</p>
+            </div>
+
+            <div class="activities__items-item">
+                <div class="activities__items-image">
+                    <img src="/dist/img/featured-2.jpg" alt="item2">
+                    <div class=" btn btn--primary">Read</div>
+                </div>
+                <h4>Lorem, ipsum dolor.</h4>
+                <span>Lorem ipsum dolor sit.</span>
+                <p>#2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aperiam accusantium odio culpa dolore neque corrupti sunt maxime ab nostrum. Quisquam, dolorum facilis ea quidem hic veritatis aliquam repellendus fuga ducimus officia, consectetur ut alias.</p>
+         </div>
+
+         <div class="activities__items-item">
+            <div class="activities__items-image">
+                <img src="/dist/img/featured-3.jpg" alt="item3">
+                <div class="btn btn--primary">Read</div>
+            </div>
+            <h4>Lorem, ipsum dolor.</h4>
+            <span>Lorem ipsum dolor sit.</span>
+            <p>#3 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis aperiam accusantium odio culpa dolore neque corrupti sunt maxime ab nostrum. Quisquam, dolorum facilis ea quidem hic veritatis aliquam repellendus fuga ducimus officia, consectetur ut alias.</p>
+        </div>      
+     </div>
+       </section>
+
+       <section id="recent-projects" class="recent-projects">
+            <div class="section-title">
+               <h1>Top<span>Hotels</span></h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ad consectetur?</p>
+            </div>
+           
+            <div class="recent-projects__grid-gallery">
+               
+                <a href="dist/img/portfolio-1.jpg" data-lightbox="example-set">
+                <img src="dist/img/portfolio-1.jpg" alt="portfolio-1">
+                </a>
+              
+                <a href="dist/img/3.jpg" data-lightbox="example-set">
+                    <img src="dist/img/3.jpg" alt="portfolio-2">
+                </a>
+                <a href="dist/img/portfolio-3.jpg" data-lightbox="example-set">
+                    <img src="dist/img/portfolio-3.jpg" alt="portfolio-3">
+                </a>
+                <a href="dist/img/5.jpg" data-lightbox="example-set">
+                    <img src="dist/img/5.jpg" alt="portfolio-4">
+                </a>
+                <a href="dist/img/4.jpg" data-lightbox="example-set">
+                    <img src="dist/img/4.jpg" alt="portfolio-5">
+                </a>
+            </div>
+       </section>
+
+       <section id="company-presentation" class="company-presentation">
+           <div class="section-title">
+               <h1>Company<span>Presentation</span></h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+
+           <div class="company-presentation__video-box">
+               <iframe src="https://www.youtube.com/embed/hQ0n9gxAAmc"
+               frameborder="0"
+                width="100%"
+                height="100%"
+                allow="accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"
+                allowfullscreen
+                ></iframe>
+           </div>
+           
+           <div class="company-presentation__info">
+               <p class="company-presentation__info--text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore nulla amet. Natus, quibusdam. Iste nostrum exercitationem officiis dolorem deleniti, in, recusandae quidem excepturi harum culpa modi, provident repellendus? Quis tenetur facilis possimus animi expedita id quisquam rerum obcaecati, voluptatem earum veniam sint neque nesciunt aperiam ipsam dignissimos repellat cum?
+               </p>
+               <a href="#" class="btn btn--primary">Continue Reading</a>
+           </div>
+       </section>
+
+       <section id="blog-entries" class="blog-entries">
+           <div class="section-title">
+            <h1>Blog <span>Entries</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, impedit voluptatem id dolores quasi neque sit ducimus explicabo facilis laboriosam!</p>
+          </div>
+
+        <div class="blog-entries__box">
+            <div class="blog-entries__box-tabs">
+                <div class="blog-entries__box-tab active" onclick="openBlogs(event,'july')">
+                    <h3>July 2020</h3>
+                </div>
+                <div class="blog-entries__box-tab " onclick="openBlogs(event,'june')">
+                    <h3>April 2021</h3>
+                </div>
+                <div class="blog-entries__box-tab " onclick="openBlogs(event,'may')">
+                    <h3>May 2021</h3>
+                </div>
+            </div>
+
+             <div class="blog-entries__box-items">
+                <div id="july" class="tabcontent">
+
+                    <div class="blog-entries__items-item">
+                       
+                        <img src="dist/img/blog1.jpg" alt="blog-1">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>1 July 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class=" btn btn--primary">Continue Reading</div>
+                    </div></div>
+
+                    <div class="blog-entries__items-item">
+                        <img src="dist/img/blog2.jpg" alt="blog-2">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>10 July 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class=" btn btn--primary">Continue Reading</div>
+                    </div></div>
+
+                    <div class="blog-entries__items-item">
+                        <img src="dist/img/blog3.jpg" alt="blog-3">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>25 July 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class="btn btn--primary">Continue Reading</div>
+                    </div></div>
+
+                    </div>
+                
+
+
+                <div id="june" class="tabcontent">
+                    <div class="blog-entries__items-item">
+                        <img src="dist/img/blog-5.jpg" alt="blog-5">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>15 June 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class=" btn btn--primary">Continue Reading</div>
+                    </div></div>
+
+                    <div class="blog-entries__items-item">
+                        <img src="dist/img/blog-3.jpg" alt="blog-3">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>22 June 2020</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class="btn btn--primary">Continue Reading</div>
+                    </div></div>
+
+                    </div>
+               
+
+
+                <div id="may" class="tabcontent">                    
+                    <div class="blog-entries__items-item">
+                        <img src="dist/img/blog-4.jpg" alt="blog-4">
+                        <div class="blog-entries__items-item-info">
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <h4>28 May</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloribus itaque modi ex deserunt voluptas dolor inventore quaerat provident eos molestias delectus saepe sunt reiciendis ratione, pariatur fugit neque nesciunt eum possimus magni nemo repellendus.</p>
+                        <div class=" btn btn--primary">Continue Reading</div>
+                    </div>                    
+                    </div>
+                </div>
+            </div>         
+    </div>  
+</section>
+
+        <section id="map" class="google-maps">
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4004020759376!2d78.0399535145264!3d27.1751495552859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2z0KLQsNC00LYt0JzQsNGF0LDQuw!5e0!3m2!1sru!2sua!4v1619795849969!5m2!1sru!2sua"
+             width="100%"
+              height="100%"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen=""              
+              aria-hidden="false"
+              tabindex="0"></iframe>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="section-title">
+                <h1>Contact <span>TravelTube</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, impedit voluptatem id dolores quasi neque sit ducimus explicabo facilis laboriosam!</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+                <a href="#" class="btn btn--primary">Send Message</a>
+            </form>
+        </section>
+        
+        <section class="footer">
+            <p>Copyright &copy; 2021 - Yana Kharlamova</p>
+        </section>
+
+   </main>
+
+   <script src="/dist/js/slideshow.js"></script>
+   <script src="/dist/js/sidebar.js"></script>
+   <script src="/dist/js/scrollMenu.js"></script>
+   <script src="/dist/js/lightbox.min.js"></script>
+   <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+   <script src="/dist/js/tabs.js"></script>
+</body>
+</html>

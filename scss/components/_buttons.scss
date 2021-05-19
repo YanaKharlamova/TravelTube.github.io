@@ -1,0 +1,32 @@
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #fff;
+  font-size: 2rem;
+  color: $primary-color;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+  &--primary {
+    background-color: $primary-color-red;
+    color: #fff;
+  }
+  &--secondary {
+    background-color: rgb(170, 169, 169);
+
+    color: black;
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: 0 1rem;
+  &.active {
+    background-color: $primary-color-red;
+  }
+}
