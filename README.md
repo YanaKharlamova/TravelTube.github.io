@@ -53,12 +53,7 @@ My website contains:
 **10.**
 
 ![](screenshots/pic10.PNG)
-**11.**
 
-![](screenshots/pic11.PNG)
-**12.**
-
-![](screenshots/pic12.PNG)
 **13.**
 
 ![](screenshots/pic13.PNG)
