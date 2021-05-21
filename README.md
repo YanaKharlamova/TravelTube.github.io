@@ -50,10 +50,6 @@ My website contains:
 **9.**
 
 ![](screenshots/pic9.PNG)
-**10.**
-
-![](screenshots/pic10.PNG)
-
 **13.**
 
 ![](screenshots/pic13.PNG)
