@@ -56,3 +56,13 @@ My website contains:
 **11.**
 
 ![](screenshots/pic11.PNG)
+**12.**
+
+![](screenshots/pic12.PNG)
+**13.**
+
+![](screenshots/pic13.PNG)
+**14.**
+
+![](screenshots/pic14.PNG)
+
