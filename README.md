@@ -44,3 +44,15 @@ My website contains:
 **7.**
 
 ![](screenshots/pic7.PNG)
+**8.**
+
+![](screenshots/pic8.PNG)
+**9.**
+
+![](screenshots/pic9.PNG)
+**10.**
+
+![](screenshots/pic10.PNG)
+**11.**
+
+![](screenshots/pic11.PNG)
