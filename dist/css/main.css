@@ -311,13 +311,13 @@ header {
         visibility: visible;
         filter: opacity(1); }
       header .slideshow .slides__slide-1 {
-        background-image: url("/TravelTube.github.io//dist/img/s2.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/s2.jpg");
         filter: brightness(0.5); }
       header .slideshow .slides__slide-2 {
-        background-image: url("/TravelTube.github.io//dist/img/slide.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/slide.jpg");
         filter: brightness(0.5); }
       header .slideshow .slides__slide-3 {
-        background-image: url("/TravelTube.github.io//dist/img/slide3.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/slide3.jpg");
         filter: brightness(0.5); }
 
 @media (min-width: 768px) {
