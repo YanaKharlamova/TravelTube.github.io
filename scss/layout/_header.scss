@@ -197,13 +197,6 @@ header {
       p {
         font-size: 1.8rem;
         margin: 2rem 0;
-
-        // @include lg {
-        //   font-size: 1.8rem;
-        //   margin: 2rem 0;
-        // }
-        // font-size: 1.2rem;
-        // margin: 2rem 0;
       }
     }
     .slides {
@@ -223,15 +216,15 @@ header {
         filter: opacity(1);
       }
       &__slide-1 {
-        background-image: url("/dist/img/s2.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/s2.jpg");
         filter: brightness(0.5);
       }
       &__slide-2 {
-        background-image: url("/dist/img/slide.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/slide.jpg");
         filter: brightness(0.5);
       }
       &__slide-3 {
-        background-image: url("/dist/img/slide3.jpg");
+        background-image: url("/TravelTube.github.io/dist/img/slide3.jpg");
         filter: brightness(0.5);
       }
     }
