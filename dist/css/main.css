@@ -250,6 +250,9 @@ header {
   width: 100%;
   height: 100vh;
   overflow: hidden; }
+  @media (min-width: 76.8rem) {
+    header {
+      height: 100vh; } }
   header .menu-toggle {
     position: fixed;
     top: 5rem;
@@ -270,6 +273,9 @@ header {
     position: relative;
     overflow: hidden;
     animation: zoomin 14s ease-in-out infinite alternate; }
+    @media (min-width: 76.8rem) {
+      header .slideshow {
+        height: 100vh; } }
     header .slideshow__nav {
       position: absolute;
       bottom: 3rem;
@@ -311,13 +317,13 @@ header {
         visibility: visible;
         filter: opacity(1); }
       header .slideshow .slides__slide-1 {
-        background-image: url("/TravelTube.github.io/dist/img/s2.jpg");
+        background-image: url("/dist/img/s2.jpg");
         filter: brightness(0.5); }
       header .slideshow .slides__slide-2 {
-        background-image: url("/TravelTube.github.io/dist/img/slide.jpg");
+        background-image: url("/dist/img/slide.jpg");
         filter: brightness(0.5); }
       header .slideshow .slides__slide-3 {
-        background-image: url("/TravelTube.github.io/dist/img/slide3.jpg");
+        background-image: url("/dist/img/slide3.jpg");
         filter: brightness(0.5); }
 
 @media (min-width: 768px) {
@@ -344,6 +350,45 @@ header {
 @media (min-width: 992px) {
   header .slideshow-info {
     padding-right: 100px; } }
+
+@media (max-width: 768px) {
+  header .slideshow__info .btn--primary {
+    margin-top: 3rem; } }
+
+@media (max-width: 767px) {
+  header {
+    height: 90vh; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 58vh; }
+  body .sidebar {
+    justify-content: start; }
+    body .sidebar__menu {
+      padding-bottom: 3rem; }
+  header .slideshow__info {
+    padding-left: 5rem;
+    top: 35%; }
+  header .slideshow__info h1 {
+    font-size: 4rem; }
+  header .slideshow__info p {
+    font-size: 1.5rem;
+    padding-left: 2rem; }
+  header .slideshow__info .btn--primary {
+    margin-bottom: 5rem; }
+  header .slideshow__nav .btn--secondary {
+    margin-bottom: 42rem; }
+  main section {
+    padding: 30px 50px; } }
+
+@media (max-width: 767px) {
+  header .slideshow__info h1 {
+    font-size: 3rem; }
+  header .slideshow__info p {
+    font-size: 1.7rem;
+    padding-left: 2rem; }
+  header .slideshow__nav .btn--secondary {
+    margin-bottom: 7rem; } }
 
 @media (min-width: 992px) {
   main {
