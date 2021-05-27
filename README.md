@@ -24,6 +24,7 @@ My website contains:
 ![](screenshots/pic.PNG)
 ## Installing
 In order to run this code, run this commands in your project terminal:
+
 **1)** `npm install` - to install project dependencies in the local node_modules folder;
 
 **2)** `npm run sass` - to run the project.
