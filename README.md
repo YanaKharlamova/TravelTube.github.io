@@ -4,7 +4,7 @@ TravelTube is my vision of nice tour company website with good usability and wel
 
 It`s also responsive for large, medium and small screen sizes.
 
-Live version:https://yanakharlamova.github.io/TravelTube.github.io/
+Live version: https://yanakharlamova.github.io/TravelTube.github.io/
 ## Features:
 My website contains:
 * animated sidebar to navigate TravelTube sections (also can be hidden on the medium/small screen sizes);
